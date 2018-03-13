@@ -13,7 +13,7 @@ namespace MicrowaveOvenClasses.Boundary
 
         public void Press()
         {
-            Pressed?.Invoke(this, System.EventArgs.Empty); //test
+            Pressed?.Invoke(this, System.EventArgs.Empty); 
         }
     }
 }
