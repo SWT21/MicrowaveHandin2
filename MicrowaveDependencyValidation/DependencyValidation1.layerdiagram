@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="0800f7f2-21b1-481a-aad0-6db80709adc3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="5014e0c2-8c79-4f83-80d3-f115334210b8" name="Light">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="ceaf4e89-3b19-4a97-abea-c1d5135d9911" direction="Forward">
+          <layerMoniker Id="7448f6de-6ff1-4500-a8e0-91126a964efa" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="0c2944a2-3aaa-468e-ac45-af79de12fb56" name="Light">
+          <ArtifactNode Label="Light" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Boundary Type=Light)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Boundary Type=Light)" Label="Light" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="39d4eed3-9b9a-4b42-b691-2ba26ad68796" name="Button">
+      <references>
+        <reference Id="4856ec7b-3a0f-4272-8e6f-92e08526ee96" name="Button">
+          <ArtifactNode Label="Button" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Boundary Type=Button)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Boundary Type=Button)" Label="Button" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="a07884ff-e1f9-4294-93f1-e54ebfd59d83" name="UserInterface">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a018458a-e579-4ec0-85f2-dbd98f94cd82" direction="Forward">
+          <layerMoniker Id="39d4eed3-9b9a-4b42-b691-2ba26ad68796" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="d0e7d0c7-c886-4688-b72f-f39a07ec2195" direction="Forward">
+          <layerMoniker Id="5014e0c2-8c79-4f83-80d3-f115334210b8" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="c7164bf3-4181-45ea-a822-dd7d39e8d210" direction="Forward">
+          <layerMoniker Id="82ed093b-c17b-4de7-82b1-c3c34492ab2d" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="98828ac5-f4e3-48f1-b426-1d048b815229" direction="Forward">
+          <layerMoniker Id="7c65666a-af4c-43b9-a2b7-438dc7f3b011" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="1d4d7cfb-c726-4e3f-8eb0-1133c1301ffd" direction="Bidirectional">
+          <layerMoniker Id="c436960c-6935-4c6a-8ad5-b2eb72f6b667" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="e3bfe3a3-f9ab-4832-ab0f-aa1c7feac394" name="UserInterface">
+          <ArtifactNode Label="UserInterface" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Controllers Type=UserInterface)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Controllers Type=UserInterface)" Label="UserInterface" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="7448f6de-6ff1-4500-a8e0-91126a964efa" name="Output">
+      <references>
+        <reference Id="635cebba-3a15-4ec2-b768-f763fe6f066c" name="Output">
+          <ArtifactNode Label="Output" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Boundary Type=Output)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Boundary Type=Output)" Label="Output" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="82ed093b-c17b-4de7-82b1-c3c34492ab2d" name="Display">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="84714a2f-ef51-4214-b906-2f41af39ae5f" direction="Forward">
+          <layerMoniker Id="7448f6de-6ff1-4500-a8e0-91126a964efa" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="62c503f8-91ab-407b-bc8d-7301bd73d750" name="Display">
+          <ArtifactNode Label="Display" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Boundary Type=Display)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Boundary Type=Display)" Label="Display" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="7c65666a-af4c-43b9-a2b7-438dc7f3b011" name="Door">
+      <references>
+        <reference Id="c4172420-9bcc-4e61-a9f0-746e5df91c98" name="Door">
+          <ArtifactNode Label="Door" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Boundary Type=Door)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Boundary Type=Door)" Label="Door" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="c436960c-6935-4c6a-8ad5-b2eb72f6b667" name="CookController">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a01e21e9-49e6-4d3a-be58-140b82e08824" direction="Forward">
+          <layerMoniker Id="82ed093b-c17b-4de7-82b1-c3c34492ab2d" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="7b3081c3-bcda-4739-8b41-fad2380ebbd5" direction="Forward">
+          <layerMoniker Id="fbf66abe-7b37-4838-a116-f4f7243411fe" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="eced4c55-b78e-46c9-b68a-827a4f4f8fe0" direction="Forward">
+          <layerMoniker Id="27133b0c-85cc-4b5c-ba4f-9fa3ae0ffcf8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="4d48e03a-074f-42e3-aa7c-7afdda8ec6ca" name="CookController">
+          <ArtifactNode Label="CookController" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Controllers Type=CookController)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Controllers Type=CookController)" Label="CookController" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="fbf66abe-7b37-4838-a116-f4f7243411fe" name="PowerTube">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="afe3f620-a599-4ba2-be64-0120e4fb2dd7" direction="Forward">
+          <layerMoniker Id="7448f6de-6ff1-4500-a8e0-91126a964efa" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="a5eacf99-cc80-442b-b69b-b59474ac3145" name="PowerTube">
+          <ArtifactNode Label="PowerTube" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Boundary Type=PowerTube)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Boundary Type=PowerTube)" Label="PowerTube" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="27133b0c-85cc-4b5c-ba4f-9fa3ae0ffcf8" name="Timer">
+      <references>
+        <reference Id="3c0a0cf6-fabc-429a-95a3-07a4bb0c1450" name="Timer">
+          <ArtifactNode Label="Timer" Category="CodeSchema_Class" Id="(Assembly=&quot;$(DesktopUri)/Skydrives/GoogleDrive/Personlige filer/IKT/4. semester/SWT/MicrowaveHandin2/MicrowaveOvenClasses/bin/Debug/MicrowaveOvenClasses.dll&quot; Namespace=MicrowaveOvenClasses.Boundary Type=Timer)" />
+          <ExpandedNode Id="(Assembly=MicrowaveOvenClasses Namespace=MicrowaveOvenClasses.Boundary Type=Timer)" Label="Timer" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>
