@@ -3,7 +3,7 @@
   <layers>
     <layer Id="5014e0c2-8c79-4f83-80d3-f115334210b8" name="Light">
       <dependencyToLayers>
-        <dependencyFromLayerToLayer Id="ceaf4e89-3b19-4a97-abea-c1d5135d9911" direction="Forward">
+        <dependencyFromLayerToLayer Id="ceaf4e89-3b19-4a97-abea-c1d5135d9911" name="1" direction="Forward">
           <layerMoniker Id="7448f6de-6ff1-4500-a8e0-91126a964efa" />
         </dependencyFromLayerToLayer>
       </dependencyToLayers>
