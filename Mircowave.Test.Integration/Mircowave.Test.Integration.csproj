@@ -56,11 +56,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IT1_OutputLight.cs" />
-    <Compile Include="IT2_OutputDisplay.cs" />
-    <Compile Include="IT3_OutputPowerTube.cs" />
-    <Compile Include="IT4_DisplayCookController.cs" />
-    <Compile Include="IT5_PowerTubeCookController.cs" />
+    <Compile Include="IT1_UserInterface_LightDisplay.cs" />
+    <Compile Include="IT2_CookControl_DisplayPowetubeTimer.cs" />
+    <Compile Include="IT3_UserInterface_CookControl.cs" />
+    <Compile Include="IT4_Door_UserInterface.cs" />
+    <Compile Include="IT5_Buttons_UserInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
