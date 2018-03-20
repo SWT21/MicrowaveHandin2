@@ -39,6 +39,9 @@ namespace MicrowaveOvenClasses.Controllers
 
         public void StartCooking(int power, int time)
         {
+            double percentagePower = (power / 700.0) * 100; // Omregn power til procent
+            power = Convert.ToInt32(percentagePower); // Konverter double til int
+
             myPowerTube.TurnOn(power);
             myTimer.Start(time);
             isCooking = true;
