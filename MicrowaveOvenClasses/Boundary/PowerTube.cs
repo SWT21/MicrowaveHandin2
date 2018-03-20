@@ -16,6 +16,9 @@ namespace MicrowaveOvenClasses.Boundary
 
         public void TurnOn(int power)
         {
+            double percentagePower = (power / 700.0) * 100; // Omregn power til procent
+            power = Convert.ToInt32(percentagePower); // Konverter double til int
+
             if (power < 1 || 100 < power)
             {
                 throw new ArgumentOutOfRangeException("power", power, "Must be between 1 and 100 % (incl.)");
