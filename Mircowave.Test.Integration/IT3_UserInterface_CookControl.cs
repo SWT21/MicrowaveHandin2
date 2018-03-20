@@ -60,7 +60,7 @@ namespace Mircowave.Test.Integration
 
             _userInterface.OnStartCancelPressed(_startCancelButton, EventArgs.Empty);
             
-            _output.Received().OutputLine("PowerTube works with 50 %");
+            _output.Received().OutputLine("PowerTube works with 7 %");
         }
 
         [Test]

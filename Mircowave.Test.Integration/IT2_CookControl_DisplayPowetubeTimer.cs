@@ -51,7 +51,7 @@ namespace Mircowave.Test.Integration
         [Test]
         public void PowerTube_TurnOn_StartCooking_OutputIsCorrect()
         {
-            _cookController.StartCooking(50, 500);
+            _cookController.StartCooking(350, 500);
 
             _output.Received().OutputLine("PowerTube works with 50 %");
         }
