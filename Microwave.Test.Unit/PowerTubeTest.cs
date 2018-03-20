@@ -57,6 +57,7 @@ namespace Microwave.Test.Unit
         [Test]
         public void TurnOn_HighPower_ThrowsException()
         {
+
             Assert.Throws<System.ArgumentOutOfRangeException>(() => uut.TurnOn(101));
         }
 
